@@ -1,0 +1,70 @@
+.update-page header{
+    background-color: #222831;
+    padding: 15px;
+    border-bottom: 1px solid #fff;
+}
+
+
+.update-page header h1 a{
+    color: #fff;
+    font-size: 50px;
+}
+
+.update-page header nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.update-page header nav a{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    transition: border 0.5s, background-color 0.5s;
+}
+
+.update-page header nav a:hover{
+    background: #fff;
+    color: #000;
+}
+
+.update-page main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    background:#393e46;
+    padding: 20px;
+}
+.update-page main h1{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.update-page main .form{
+    background-color: #00adb5;
+    padding:10px;
+    font-size: 20px;
+}
+
+.update-page main .form input{
+    font-size: 18px;
+    border: none;
+}
+
+.update-page main  button{
+    background-color: #222831;
+    color: #fff;
+
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 90px;
+    border-radius: 10px;
+
+    font-size: 18px;
+
+}

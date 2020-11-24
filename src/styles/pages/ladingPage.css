@@ -1,0 +1,89 @@
+.lading-page header{
+    background-color: #222831;
+    padding: 15px;
+    border-bottom: 1px solid #fff;
+}
+
+
+.lading-page header h1 a{
+    color: #fff;
+    font-size: 50px;
+}
+
+.lading-page header nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.lading-page header nav a{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    transition: border 0.5s, background-color 0.5s;
+}
+
+.lading-page header nav a:hover{
+    background: #fff;
+    color: #000;
+}
+
+
+.lading-page main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #393e46;
+    padding: 20px;
+}
+
+.lading-page main h2{
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.lading-page main section{
+    background: #00adb5;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.lading-page main section .functions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.lading-page main section a button{
+    background: #03719C;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+    transition: background-color 0.5s;
+}
+
+.lading-page main section a button:hover{
+    background: #03719c98; 
+}
+
+.lading-page main section a .delete{
+    background: red;
+    transition: background-color 0.5s;
+}
+
+.lading-page main section a .delete:hover{
+    background: rgba(255, 0, 0, 0.815);
+}
